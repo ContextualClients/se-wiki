@@ -11,7 +11,7 @@ Platform leadership / architecture owner. Defines product direction for SE build
 
 ## Role
 
-Internal Contextual. CTO leading R&D. Provides direction on architecture decisions, product scope, and SE build approach. Has ability to grant prod access. Andrew Brooks and James Stolp are on his platform engineering team (R&D org, not shown in Delivery org chart).
+Internal Contextual. CTO leading R&D. Reports directly to CEO. Provides direction on architecture decisions, product scope, and SE build approach. Has ability to grant prod access. The Engineering org (Andrew Brooks as VP of Engineering) is a separate branch also reporting to CEO -- Andrew's team handles platform engineering delivery.
 
 ## Key Directions (2026-04-03)
 
@@ -55,6 +55,6 @@ From "Sync on Design Approach" meeting 2026-04-02 with Andrew Brooks:
 - [[clients/alba-netchb]] -- implementation of Jeff's direction
 - [[patterns/config-driven-routing]] -- template config approach
 - [[platform/native-object-nodes]] -- bug Jeff confirmed
-- [[people/andrew-brooks]] -- co-leads architecture direction (R&D team)
-- [[people/james-stolp]] -- R&D platform engineering team
+- [[people/andrew-brooks]] -- VP of Engineering, peer at CEO-report level
+- [[people/james-stolp]] -- Platform Engineering (under Aiden Landers, under Andrew Brooks)
 - [[people/angela-woods]] -- Director of SE (Delivery org, reports to PK)

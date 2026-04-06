@@ -8,7 +8,7 @@ Chief Commercial Officer. Leads the Delivery org -- the primary org for SE, part
 **Department:** Delivery
 **Reports to:** CEO
 **Tenure:** 4 months
-**Direct reports:** 6 of 15 (Angela Woods, Dom Carrillo, Michael Azulay, Zach Chambers, Murray, and likely others)
+**Direct reports:** 6 of 15 (Angela Woods, Dom Carrillo, Michael Azulay, Zach Chambers, Murray Leinbach, and likely others)
 
 ## Context
 
@@ -19,4 +19,5 @@ PK owns the commercial side of Contextual -- delivery, partnerships, and sales t
 - [[people/angela-woods]] -- Director of SE, reports to PK
 - [[people/dom-carrillo]] -- Principal AI Solutions Architect, reports to PK
 - [[people/michael-azulay]] -- VP Partnerships, reports to PK
+- [[people/murray-leinbach]] -- VP of Customer Operations, reports to PK
 - [[people/zach-chambers]] -- Partnerships Manager, reports to PK

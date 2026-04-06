@@ -1,15 +1,17 @@
 # Andrew Brooks
 
-#people #r-and-d #platform #architect #review
+#people #leadership #ceo #founder
 
-Platform architect / senior engineer. Conducts architectural reviews of SE builds. Sets standards for how flows should be built.
+Chief Executive Officer of Contextual Software Inc. 1 year 11 months. Conducts architectural reviews of SE builds and sets standards for how flows should be built.
 
-**Department:** R&D (platform engineering team under Jeff Hagins)
-**Note:** R&D org -- not in the Delivery/Sales org chart. Works closely with SE team on build standards.
+**Title:** Chief Executive Officer
+**Department:** No Department (company-wide)
+**Tenure:** 1 year, 11 months
+**Direct reports:** 5/28 (PK Krishnamoorthy, Jeff Hagins, Ben Edwards, Justin Corbell + engineering org)
 
 ## Role
 
-Internal Contextual platform team. Reviews SE implementations for correctness and platform best practices. Runs "Sync on Design Approach" sessions.
+CEO of Contextual. Founded the company. Hands-on with engineering -- directly reviews SE flow architecture and runs "Sync on Design Approach" sessions. The entire org reports up to him: PK (CCO/Delivery), Jeff (CTO/R&D), Ben (VP People Ops), Justin (Sales), plus the engineering org (Aiden Landers, James Stolp, platform engineers).
 
 ## Architectural Review Feedback (2026-04-06)
 
@@ -59,5 +61,6 @@ Source: expertise.yaml andrew_flow_standards_20260406, project_andrew_review_202
 - [[decisions/alba-dev-as-reference]]
 - [[platform/log-tap-behavior]]
 - [[platform/flow-structure]]
-- [[people/jeff-hagins]] -- CTO, R&D org lead
-- [[people/james-stolp]] -- R&D platform engineering peer
+- [[people/jeff-hagins]] -- CTO, peer at leadership level (reports to CEO)
+- [[people/aiden-landers]] -- Director of Platform Engineering, reports to Andrew
+- [[people/james-stolp]] -- Platform Engineering, reports to Aiden Landers

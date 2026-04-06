@@ -48,6 +48,6 @@ Source: user_profile.md, project_andrew_review_20260406.md
 - [[clients/alba-netchb]] -- current active engagement
 - [[people/angela-woods]] -- direct manager (Director of SE)
 - [[people/pk-krishnamoorthy]] -- CCO, leads Delivery org
-- [[people/andrew-brooks]] -- architectural reviewer (R&D team)
+- [[people/andrew-brooks]] -- CEO, conducts architectural reviews (R&D team)
 - [[people/jeff-hagins]] -- architecture direction owner (CTO)
 - [[decisions/karpathy-wiki-comparison]] -- wiki system design decisions

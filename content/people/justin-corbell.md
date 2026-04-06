@@ -6,7 +6,7 @@ AI Solution Sales Director. Leads AI solution sales efforts.
 
 **Title:** AI Solution Sales Director
 **Department:** Sales
-**Reports to:** CEO (or PK -- position unclear from org chart)
+**Reports to:** CEO
 **Tenure:** 3 months
 
 ## Context
