@@ -1,8 +1,11 @@
 # Andrew Brooks
 
-#people #platform #architect #review
+#people #r-and-d #platform #architect #review
 
 Platform architect / senior engineer. Conducts architectural reviews of SE builds. Sets standards for how flows should be built.
+
+**Department:** R&D (platform engineering team under Jeff Hagins)
+**Note:** R&D org -- not in the Delivery/Sales org chart. Works closely with SE team on build standards.
 
 ## Role
 
@@ -56,3 +59,5 @@ Source: expertise.yaml andrew_flow_standards_20260406, project_andrew_review_202
 - [[decisions/alba-dev-as-reference]]
 - [[platform/log-tap-behavior]]
 - [[platform/flow-structure]]
+- [[people/jeff-hagins]] -- CTO, R&D org lead
+- [[people/james-stolp]] -- R&D platform engineering peer

@@ -1,8 +1,11 @@
 # James Stolp
 
-#people #platform #engineering
+#people #r-and-d #platform #engineering
 
 Platform engineering team. Joined Andrew's architectural review session. Platform internals knowledge.
+
+**Department:** R&D (platform engineering team under Jeff Hagins)
+**Note:** R&D org -- not in the Delivery/Sales org chart. Works closely with SE team on tooling questions.
 
 ## Role
 
@@ -33,4 +36,5 @@ Source: expertise.yaml unvalidated_observations
 ## Related
 
 - [[people/andrew-brooks]] -- co-lead on architectural review
+- [[people/jeff-hagins]] -- CTO, R&D org lead
 - [[platform/flow-structure]] -- lint and orphaned node issues

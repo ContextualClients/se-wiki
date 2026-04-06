@@ -1,12 +1,17 @@
 # Jeff Hagins
 
-#people #platform #architecture #direction
+#people #r-and-d #architecture #direction #cto
 
 Platform leadership / architecture owner. Defines product direction for SE builds. Sets scope and approach for connectors.
 
+**Title:** Chief Technology Officer
+**Department:** R&D
+**Reports to:** CEO
+**Tenure:** 1 year 11 months
+
 ## Role
 
-Internal Contextual. Provides direction on architecture decisions, product scope, and SE build approach. Has ability to grant prod access.
+Internal Contextual. CTO leading R&D. Provides direction on architecture decisions, product scope, and SE build approach. Has ability to grant prod access. Andrew Brooks and James Stolp are on his platform engineering team (R&D org, not shown in Delivery org chart).
 
 ## Key Directions (2026-04-03)
 
@@ -50,4 +55,6 @@ From "Sync on Design Approach" meeting 2026-04-02 with Andrew Brooks:
 - [[clients/alba-netchb]] -- implementation of Jeff's direction
 - [[patterns/config-driven-routing]] -- template config approach
 - [[platform/native-object-nodes]] -- bug Jeff confirmed
-- [[people/andrew-brooks]] -- co-leads architecture direction
+- [[people/andrew-brooks]] -- co-leads architecture direction (R&D team)
+- [[people/james-stolp]] -- R&D platform engineering team
+- [[people/angela-woods]] -- Director of SE (Delivery org, reports to PK)

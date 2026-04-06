@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "SE Knowledge Wiki",
-    pageTitleSuffix: " | Contextual SE",
+    pageTitle: "SE Contextual Clarity",
+    pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
