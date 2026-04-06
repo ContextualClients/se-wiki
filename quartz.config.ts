@@ -8,15 +8,13 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "SE Knowledge Wiki",
+    pageTitleSuffix: " | Contextual SE",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "contextualclients.github.io/se-wiki",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
