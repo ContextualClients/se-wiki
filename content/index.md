@@ -33,10 +33,13 @@ Run `/se:wiki-lint` periodically to check health.
 - [[single-start-node]] -- One start per flow. Filter with switch nodes inside. AB's direction.
 
 ## People
-- [[ab]] -- CEO. Architectural reviews. Flow standards owner.
-- [[aw]] -- Director of Solution Engineering.
-- [[bp]] -- Senior SE. Clarity/Forge builder. Open action items tracked.
-- [[bradm]] -- Senior SE.
-- [[jh]] -- CTO. Architecture direction. Entry type scope. Schema rules.
+- [[ab]] -- Platform architect. Architectural reviews. Flow standards owner.
+- [[bp]] -- SE lead. Clarity/Forge builder. Open action items tracked.
 - [[js]] -- Platform engineering. Lint rules, cron feedback, internal tooling.
-- [[ma]] -- VP Partnerships.
+- [[jh]] -- Architecture direction. Entry type scope. Schema rules.
+
+- [[idempotency-guard]] -- Status gate prevents duplicate processing. Original 8.
+- [[correlation-id]] -- Track execution across agents and logs. Single most important debug tool.
+- [[agent-to-agent-communication]] -- Outbox pattern, not HTTP. Work request records.
+- [[mock-data-strategy]] -- Mock toggle for external APIs without sandboxes.
+- [[pre-release-checklist]] -- Every prod release gate. Original 8.

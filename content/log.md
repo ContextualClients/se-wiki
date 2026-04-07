@@ -11,3 +11,8 @@ Append-only. Every ingest, file, and lint operation recorded here.
 - Source: Karpathy gist + Extended Brain Substack + VentureBeat
 - Pages created: wiki/decisions/karpathy-wiki-comparison.md
 - Action: bridge plan documented, 3 wiki commands designed
+
+## [2026-04-07] ingest | SE Framework patterns from solution-engineering repo
+- Source: SE repo branch add/repo-structure-and-phase-0 (6 docs)
+- Pages created: idempotency-guard, correlation-id, agent-to-agent-communication, mock-data-strategy, pre-release-checklist
+- Pages updated: error-handling (merged SE framework standard with AB's verbal feedback)

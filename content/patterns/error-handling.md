@@ -41,8 +41,41 @@ Platform training uses `op: "set"` for PATCH operations. Our code uses RFC 6902 
 
 Source: expertise.yaml patch_op_set_vs_replace
 
+## SE Framework Standard (Original 8)
+
+From the SE Design & Build Guidelines -- error handling is one of the "Original 8" non-negotiables.
+
+**Full error chain:**
+```
+[Catch: scope=all] -> [Log Tap: ERROR + correlationId] -> [Change: status=ERROR] -> [Native Object: update record] -> [End]
+```
+
+The key addition vs AB's simple pattern: **write the error status back to the record** so it's visible in the platform and doesn't silently disappear.
+
+**Error types:**
+
+| Type | Retry? | Route to |
+|------|--------|----------|
+| Transient (timeout, 429) | Yes, exponential backoff, max 3 | Retry queue, then exception bucket |
+| Unrecoverable (bad input, schema mismatch) | No | Exception queue directly |
+| Low-confidence AI result | No | Human review queue |
+
+**Exception queue rules:**
+- Named human owner (a real person, not a team)
+- Defined SLA for review
+- Clear action: correct + resubmit, escalate, or reject
+
+**Don't:**
+- Rely on global flow error handler only -- it swallows context
+- Let errors silently set a stuck state with no status update
+- Retry unrecoverable errors
+
+Source: [SE repo - error-handling.md](https://github.com/ContextualClients/solution-engineering/blob/add/repo-structure-and-phase-0/docs/patterns/flow-design/error-handling.md) | Part of the "Original 8" in [SE Design & Build Guidelines](https://docs.google.com/document/d/1Am1kmKUjONIZfWh2DgYoSVp18tnT989VEnKzUv3oAdg)
+
 ## Related
 
 - [[log-tap-behavior]] -- error level visibility
 - [[flow-structure]] -- lint rules, every path must complete
 - [[decisions/no-contextual-error]] -- architectural decision record
+- [[idempotency-guard]] -- status gate prevents duplicate processing
+- [[correlation-id]] -- include in every error log
