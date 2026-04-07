@@ -13,7 +13,7 @@ Routing logic lives in config records, not in flow code. Enables multi-client, m
 
 No hardcoded routing in flow code.
 
-Source: Jeff Hagins 2026-04-03, expertise.yaml config_driven_templates
+Source: JH 2026-04-03, expertise.yaml config_driven_templates
 
 ## Config Record Structure (netchb-template-config)
 

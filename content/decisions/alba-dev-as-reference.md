@@ -8,7 +8,7 @@ alba-dev is the source of truth for object type schemas and the production event
 
 Always pull object type schemas from alba-dev. Never create them from scratch or simplify them. The transform adapts to the schema, not the other way around.
 
-Source: Andrew Brooks 2026-04-03, Jeff Hagins confirmed
+Source: AB 2026-04-03, JH confirmed
 
 ## Rationale
 
@@ -46,11 +46,11 @@ ISF required stripping `schema.relations` (cargowise-company, cargowise-branch, 
 | alba-dev | Production event-driven | Event-driven patterns, schemas, connector architecture |
 | milrose | Deep research + report formatting | NOT high-volume event-driven patterns |
 
-Source: Andrew Brooks 2026-04-06
+Source: AB 2026-04-06
 
 ## Related
 
 - [[platform/schema-rules]] -- implementation guide
 - [[clients/alba-netchb]] -- current schema state
-- [[people/andrew-brooks]] -- decision source
-- [[people/jeff-hagins]] -- confirmed the peer dependency model
+- [[people/ab]] -- decision source
+- [[people/jh]] -- confirmed the peer dependency model

@@ -15,7 +15,7 @@ Two catch nodes, both wired to `contextual-end`:
 
 `contextual-error` is NOT in common use. Do not use it.
 
-Source: Andrew Brooks 2026-04-06
+Source: AB 2026-04-06
 
 ## Reference
 

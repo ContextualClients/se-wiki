@@ -8,7 +8,7 @@ Use one contextual-start node per flow. Filter inside the flow with switch nodes
 
 One contextual-start node (with empty or minimal condition) per flow. Do not use multiple start nodes to split event types.
 
-Source: Andrew Brooks, architectural review 2026-04-06
+Source: AB, architectural review 2026-04-06
 
 ## Rationale
 
@@ -36,4 +36,4 @@ The flow-topic platform requirement is TWO contextual-start nodes for the platfo
 
 - [[platform/flow-structure]] -- entryPoint and start node structure
 - [[platform/triggers]] -- contextual-start condition fragility
-- [[people/andrew-brooks]] -- decision source
+- [[people/ab]] -- decision source

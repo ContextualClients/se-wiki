@@ -1,16 +1,15 @@
-# James Stolp
+# JS
 
 #people #engineering #platform
 
 Platform engineering team. Joined Andrew's architectural review session. Platform internals knowledge.
 
 **Department:** Engineering
-**Reports to:** [[people/aiden-landers]] (Director of Platform Engineering, who reports to Andrew Brooks)
 **Note:** Engineering org. Works closely with SE team on tooling questions.
 
 ## Role
 
-Internal Contextual platform team under Aiden Landers (Director of Platform Engineering). Works on platform tooling and flow editor infrastructure. Knowledge of platform lint, validation, and flow binding internals.
+Internal Contextual platform team under AL (Director of Platform Engineering). Works on platform tooling and flow editor infrastructure. Knowledge of platform lint, validation, and flow binding internals.
 
 ## Feedback on NetCHB Review (2026-04-06)
 
@@ -36,7 +35,6 @@ Source: expertise.yaml unvalidated_observations
 
 ## Related
 
-- [[people/aiden-landers]] -- direct manager, Director of Platform Engineering
-- [[people/andrew-brooks]] -- VP of Engineering, co-lead on architectural review
-- [[people/jeff-hagins]] -- CTO
+- [[people/ab]] -- VP of Engineering, co-lead on architectural review
+- [[people/jh]] -- CTO
 - [[platform/flow-structure]] -- lint and orphaned node issues

@@ -10,7 +10,7 @@ Error paths: catch (all) + catch (uncaught errors) -> log-tap (level="error") ->
 
 The `contextual-error` node is not in common use on the platform.
 
-Source: Andrew Brooks, architectural review 2026-04-06
+Source: AB, architectural review 2026-04-06
 
 ## Rationale
 
@@ -38,4 +38,4 @@ Log-tap density on error path is dealer's choice. Use `level="error"` so errors 
 - [[patterns/error-handling]] -- full implementation pattern
 - [[platform/log-tap-behavior]] -- why level="error" matters
 - [[platform/flow-structure]] -- lint rule: all paths must reach end
-- [[people/andrew-brooks]] -- decision source
+- [[people/ab]] -- decision source

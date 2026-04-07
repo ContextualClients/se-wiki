@@ -13,7 +13,7 @@ Log-tap node visibility is NOT what you expect. The destination controls who see
 
 Neither goes to monitoring automatically. **Monitoring visibility is purely level-based.**
 
-Source: Andrew Brooks, 2026-04-06
+Source: AB, 2026-04-06
 
 ## Level-Based Monitoring Rules
 

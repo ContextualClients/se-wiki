@@ -8,7 +8,7 @@ Never create object type schemas from scratch. Always pull from the source tenan
 
 Pull exact schema from alba-dev (or the reference tenant). Use it as-is.
 
-Source: Andrew Brooks 2026-04-03, Jeff Hagins confirmed
+Source: AB 2026-04-03, JH confirmed
 
 ## Why It Matters
 

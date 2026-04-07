@@ -2,7 +2,7 @@
 
 #platform #flows #lint #architecture #standards
 
-Rules and standards for Contextual platform flows. Based on Andrew Brooks architectural review and confirmed platform lint requirements.
+Rules and standards for Contextual platform flows. Based on AB architectural review and confirmed platform lint requirements.
 
 ## Node Types (Use Correct Names)
 
@@ -25,7 +25,7 @@ See [[triggers]] for why empty condition on catch-all is preferred.
 
 ## Single Start Node Direction (Andrew)
 
-Andrew Brooks 2026-04-06: "2 unfiltered start nodes = unnecessary complexity." Use 1 start node unless you have a specific reason for 2. Filter inside the flow with switch nodes.
+AB 2026-04-06: "2 unfiltered start nodes = unnecessary complexity." Use 1 start node unless you have a specific reason for 2. Filter inside the flow with switch nodes.
 
 See [[decisions/single-start-node]] for the full rationale.
 

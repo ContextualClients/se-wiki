@@ -14,7 +14,7 @@ Architecture: `ECD/ISF post-insert -> netchb-xml-builder -> outbound-xml-documen
 
 - ID: `alba-netchb`
 - Phase: 1 (active build)
-- SE Lead: Brian Pyatt
+- SE Lead: BP
 - Parent client: alba
 - Last scan: 2026-04-06
 
@@ -81,10 +81,10 @@ Importer tax ID required for entries to show in NetCHB UI. Sandbox EIN: `71-0415
 
 ## Key People
 
-- [[people/jeff-hagins]] -- architecture direction, entry types scope, prod access
-- [[people/andrew-brooks]] -- architectural review, flow standards
-- [[people/james-stolp]] -- platform issues, cron feedback
-- [[people/brian-pyatt]] -- SE lead, builder
+- [[people/jh]] -- architecture direction, entry types scope, prod access
+- [[people/ab]] -- architectural review, flow standards
+- [[people/js]] -- platform issues, cron feedback
+- [[people/bp]] -- SE lead, builder
 
 ## Related
 

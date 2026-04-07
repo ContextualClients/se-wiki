@@ -32,7 +32,7 @@ BAD:  msg.query = {...}  ->  node config: query="query"
 GOOD: msg.queryString = {...}  ->  node config: query="queryString"
 ```
 
-Source: Jeff Hagins confirmed 2026-04-03. Nasser confirmed. Jira bug filed.
+Source: JH confirmed 2026-04-03. Nasser confirmed. Jira bug filed.
 
 Workaround: `msg.objectIdType = "str"` forces literal interpretation, or just use a different property name.
 

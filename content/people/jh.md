@@ -1,4 +1,4 @@
-# Jeff Hagins
+# JH
 
 #people #r-and-d #architecture #direction #cto
 
@@ -11,7 +11,7 @@ Platform leadership / architecture owner. Defines product direction for SE build
 
 ## Role
 
-Internal Contextual. CTO leading R&D. Reports directly to CEO. Provides direction on architecture decisions, product scope, and SE build approach. Has ability to grant prod access. The Engineering org (Andrew Brooks as VP of Engineering) is a separate branch also reporting to CEO -- Andrew's team handles platform engineering delivery.
+Internal Contextual. CTO leading R&D. Reports directly to CEO. Provides direction on architecture decisions, product scope, and SE build approach. Has ability to grant prod access. The Engineering org (AB as VP of Engineering) is a separate branch also reporting to CEO -- Andrew's team handles platform engineering delivery.
 
 ## Key Directions (2026-04-03)
 
@@ -45,7 +45,7 @@ See [[platform/native-object-nodes]] for the full bug detail and workaround.
 
 ## Architecture Direction
 
-From "Sync on Design Approach" meeting 2026-04-02 with Andrew Brooks:
+From "Sync on Design Approach" meeting 2026-04-02 with AB:
 - Standard object: Extended Customs Declaration for ALL importers
 - Three-part connector model (outbound XML, internal API, inbound events)
 - Schema rule: never create from scratch, always pull from reference tenant
@@ -55,6 +55,6 @@ From "Sync on Design Approach" meeting 2026-04-02 with Andrew Brooks:
 - [[clients/alba-netchb]] -- implementation of Jeff's direction
 - [[patterns/config-driven-routing]] -- template config approach
 - [[platform/native-object-nodes]] -- bug Jeff confirmed
-- [[people/andrew-brooks]] -- VP of Engineering, peer at CEO-report level
-- [[people/james-stolp]] -- Platform Engineering (under Aiden Landers, under Andrew Brooks)
-- [[people/angela-woods]] -- Director of SE (Delivery org, reports to PK)
+- [[people/ab]] -- VP of Engineering, peer at CEO-report level
+- [[people/js]] -- Platform Engineering (under AL, under AB)
+- [[people/aw]] -- Director of SE (Delivery org, reports to PK)

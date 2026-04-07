@@ -1,4 +1,4 @@
-# Brian Pyatt
+# BP
 
 #people #delivery #se #senior #builder
 
@@ -6,12 +6,12 @@ SE lead on alba-netchb. Building Contextual Clarity and Forge frameworks alongsi
 
 **Title:** Senior Solution Engineer
 **Department:** Delivery
-**Reports to:** [[people/angela-woods]] (Director of Solution Engineering)
+**Reports to:** [[people/aw]] (Director of Solution Engineering)
 **Tenure:** 14 days
 
 ## Role
 
-Senior Solution Engineer at Contextual. Reports to Angela Woods (SE org). SE lead for alba-netchb engagement (NetCHB customs filing connector).
+Senior Solution Engineer at Contextual. Reports to AW (SE org). SE lead for alba-netchb engagement (NetCHB customs filing connector).
 
 Also building:
 - **Forge** -- meta-application framework wrapping Claude Code (SDLC, ADWS orchestration)
@@ -46,8 +46,7 @@ Source: user_profile.md, project_andrew_review_20260406.md
 ## Related
 
 - [[clients/alba-netchb]] -- current active engagement
-- [[people/angela-woods]] -- direct manager (Director of SE)
-- [[people/pk-krishnamoorthy]] -- CCO, leads Delivery org
-- [[people/andrew-brooks]] -- CEO, conducts architectural reviews (R&D team)
-- [[people/jeff-hagins]] -- architecture direction owner (CTO)
+- [[people/aw]] -- direct manager (Director of SE)
+- [[people/ab]] -- CEO, conducts architectural reviews (R&D team)
+- [[people/jh]] -- architecture direction owner (CTO)
 - [[decisions/karpathy-wiki-comparison]] -- wiki system design decisions
