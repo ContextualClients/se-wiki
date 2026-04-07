@@ -18,11 +18,11 @@ The pattern: catch-all start -> switch node -> branch per event type. This is mo
 
 ## Context
 
-Previous NetCHB xml-builder flow had 2 contextual-start nodes (one filtered, one catch-all). Andrew flagged this as over-engineering during the 2026-04-06 review.
+Previous NetCHB xml-builder flow had 2 contextual-start nodes (one filtered, one catch-all). AB flagged this as over-engineering during the 2026-04-06 review.
 
 ## Also: Condition Syntax is Fragile
 
-JSONata expressions on contextual-start nodes work on alba-dev but fail on new tenants (confirmed by Andrew 2026-04-03).
+JSONata expressions on contextual-start nodes work on alba-dev but fail on new tenants (confirmed by AB 2026-04-03).
 
 Leaving the condition empty and filtering inside the flow is more reliable and easier to debug.
 

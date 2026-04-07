@@ -11,7 +11,7 @@ Platform leadership / architecture owner. Defines product direction for SE build
 
 ## Role
 
-Internal Contextual. CTO leading R&D. Reports directly to CEO. Provides direction on architecture decisions, product scope, and SE build approach. Has ability to grant prod access. The Engineering org (AB as VP of Engineering) is a separate branch also reporting to CEO -- Andrew's team handles platform engineering delivery.
+Internal Contextual. CTO leading R&D. Reports directly to CEO. Provides direction on architecture decisions, product scope, and SE build approach. Has ability to grant prod access. The Engineering org (AB as VP of Engineering) is a separate branch also reporting to CEO -- AB's team handles platform engineering delivery.
 
 ## Key Directions (2026-04-03)
 

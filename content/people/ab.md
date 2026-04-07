@@ -15,7 +15,7 @@ CEO of Contextual. Founded the company. Hands-on with engineering -- directly re
 
 ## Architectural Review Feedback (2026-04-06)
 
-Full review with Brian on NetCHB connector flows. Key direction:
+Full review with BP on NetCHB connector flows. Key direction:
 
 **Flow structure:**
 - 2 unfiltered start nodes = unnecessary complexity. Use 1. See [[decisions/single-start-node]].
@@ -39,7 +39,7 @@ Full review with Brian on NetCHB connector flows. Key direction:
 
 Source: expertise.yaml andrew_flow_standards_20260406, project_andrew_review_20260406.md
 
-## Confirmed Platform Facts (from Andrew)
+## Confirmed Platform Facts (from AB)
 
 - `toConsole` goes to Nasser/platform team backend, NOT agent logs (2026-04-06)
 - `toSideBar` is flow editor debug pane only (2026-04-06)
@@ -47,7 +47,7 @@ Source: expertise.yaml andrew_flow_standards_20260406, project_andrew_review_202
 - contextual-start condition syntax is fragile on new tenants (2026-04-03)
 - Schema rule: never create from scratch, always pull from alba-dev (2026-04-03)
 
-## Action Items for Brian (from review)
+## Action Items for BP (from review)
 
 1. Playwright tests for flow editor opening
 2. Document poller loop mechanism (why it loops, how it exits)

@@ -2,7 +2,7 @@
 
 #patterns #error #catch #andrew
 
-Andrew's confirmed pattern: catch nodes to end, not contextual-error.
+AB's confirmed pattern: catch nodes to end, not contextual-error.
 
 ## The Pattern
 

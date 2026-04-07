@@ -42,7 +42,7 @@ Source: expertise.yaml trigger_api_format
 
 JSONata expressions with `=` and `and` work on alba-dev but fail on new tenants.
 
-**Confirmed by Andrew 2026-04-03.**
+**Confirmed by AB 2026-04-03.**
 
 Recommended workaround: leave contextual-start condition empty, filter inside the flow with switch nodes. More reliable, easier to debug.
 

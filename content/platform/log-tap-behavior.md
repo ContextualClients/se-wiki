@@ -26,11 +26,11 @@ Source: AB, 2026-04-06
 
 `node.warn()` in function nodes does NOT produce visible logs. Use log-tap nodes instead.
 
-Source: Confirmed in alba-netchb, 2026-04-03. Andrew confirmed 2026-04-06.
+Source: Confirmed in alba-netchb, 2026-04-03. AB confirmed 2026-04-06.
 
 ## Density
 
-Log-tap density is dealer's choice -- however much you need to understand what's happening. Andrew says there is no wrong answer on quantity.
+Log-tap density is dealer's choice -- however much you need to understand what's happening. AB says there is no wrong answer on quantity.
 
 ## Deploy Debug Pattern
 

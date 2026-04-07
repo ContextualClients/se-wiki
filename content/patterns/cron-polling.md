@@ -30,7 +30,7 @@ Source: expertise.yaml, confirmed in working implementation
    - any other CBP-returned fields
 6. Loop exits after processing (not infinite -- exits after N entries)
 
-Source: Andrew feedback 2026-04-06 (poller loop documented in v14 flow info)
+Source: AB feedback 2026-04-06 (poller loop documented in v14 flow info)
 
 ## Rate Limiting
 

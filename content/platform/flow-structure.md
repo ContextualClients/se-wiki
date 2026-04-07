@@ -23,7 +23,7 @@ Every flow-topic flow must have:
 
 See [[triggers]] for why empty condition on catch-all is preferred.
 
-## Single Start Node Direction (Andrew)
+## Single Start Node Direction (AB)
 
 AB 2026-04-06: "2 unfiltered start nodes = unnecessary complexity." Use 1 start node unless you have a specific reason for 2. Filter inside the flow with switch nodes.
 
@@ -50,7 +50,7 @@ Platform ESLint runs on all function nodes. Common failures:
 
 Source: feedback_deployment_process.md, confirmed multiple deploys
 
-## Logging Standards (Andrew)
+## Logging Standards (AB)
 
 - Never log the complete message object permanently at any level
 - OK short-term for debugging, remove after

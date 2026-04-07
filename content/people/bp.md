@@ -19,7 +19,7 @@ Also building:
 
 ## Open Action Items (as of 2026-04-06)
 
-From Andrew's architectural review:
+From AB's architectural review:
 1. Playwright tests for flow editor opening (xml-builder can't be opened -- investigate)
 2. Document poller loop mechanism (why it loops, how it exits)
 3. Complete tutorials 1-3 manually + Jeff's weather app

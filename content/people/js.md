@@ -2,7 +2,7 @@
 
 #people #engineering #platform
 
-Platform engineering team. Joined Andrew's architectural review session. Platform internals knowledge.
+Platform engineering team. Joined AB's architectural review session. Platform internals knowledge.
 
 **Department:** Engineering
 **Note:** Engineering org. Works closely with SE team on tooling questions.
@@ -13,13 +13,13 @@ Internal Contextual platform team under AL (Director of Platform Engineering). W
 
 ## Feedback on NetCHB Review (2026-04-06)
 
-From architectural review with Brian and Andrew:
+From architectural review with BP and AB:
 
 **Lint and orphaned nodes:**
 Previous flow versions had disconnected/orphaned function nodes causing lint errors. Platform should catch these at generation time, not at agent binding. (Implication: lint early in the flow build process, not as an afterthought.)
 
 **SolutionAI vs API approach:**
-The platform's native SolutionAI has Zod verification layers that the API endpoint approach doesn't have. Brian's system uses API calls, not the flow editor tunnel or SolutionAI skill.
+The platform's native SolutionAI has Zod verification layers that the API endpoint approach doesn't have. BP's system uses API calls, not the flow editor tunnel or SolutionAI skill.
 
 **Team direction:**
 Team is working on a Git-based approach for shared platform knowledge and project-specific context. For V1, flexibility is more important than efficiency -- abstraction can come later.
